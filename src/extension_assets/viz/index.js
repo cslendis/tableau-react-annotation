@@ -485,7 +485,9 @@ const Viz = (props) => {
                   lineType: contextValue.tableauExt.settings.get('annotationNoteLineType') === "null" ? null : contextValue.tableauExt.settings.get('annotationNoteLineType'),
                   align: contextValue.tableauExt.settings.get('annotationNoteAlign'),
                   textAnchor: contextValue.tableauExt.settings.get('annotationNoteTextAnchor') === "null" ? null : contextValue.tableauExt.settings.get('annotationNoteTextAnchor'),
-                  disable: contextValue.tableauExt.settings.get('annotationNoteDisable')
+                  disable: contextValue.tableauExt.settings.get('annotationNoteDisable'),
+                  noteTextSize: contextValue.tableauExt.settings.get('annotationNoteLabelFontsize'),
+                  titleTextSize: contextValue.tableauExt.settings.get('annotationNoteTitleFontsize')
                 },
                 subject: {
                   fill: contextValue.tableauExt.settings.get('annotationSubjectFill'),

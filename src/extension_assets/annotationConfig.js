@@ -193,6 +193,14 @@ export default {
                 "tooltip": "The title of your annotation"
               },
               {
+                "type": "text",
+                "label": "title font size",
+                "placeholder": "Titlefontsize",
+                "value": "16",
+                "name": "annotationNoteTitleFontsize",
+                "tooltip": "The title of your annotation"
+              },
+              {
                 "type": "color",
                 "label": "Note title color",
                 "value": "#C123FA",
@@ -205,6 +213,14 @@ export default {
                 "placeholder": "Label",
                 "value": "",
                 "name": "annotationNoteLabel",
+                "tooltip": "The label of your annotation"
+              },
+              {
+                "type": "text",
+                "label": "label font size",
+                "placeholder": "Labelfontsize",
+                "value": "12",
+                "name": "annotationNoteLabelFontsize",
                 "tooltip": "The label of your annotation"
               },
               {
